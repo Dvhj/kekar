@@ -1,0 +1,127 @@
+body{	margin:0;
+	display:flex;
+	flex-direction:column;
+	
+}
+.up{
+	display:flex;
+	/*background:rgba(211, 211, 211, 0.5);*/
+	height:120px;
+	margin-bottom: 50px;
+	text-align: center;
+	margin-top: 2%;
+}
+
+.up-name {
+	margin-top: 5px;
+	
+}
+.up-image{
+	max-height:100%;
+}
+
+.clean {
+	display: flex;
+	justify-content:center;
+	flex-direction: row;
+}
+.clean-full {
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+.clean img {
+	max-height: 150px;
+}
+.clean-letter {
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.clean-full:hover{
+	transform: rotate(6deg);
+	text-shadow: 2px 2px 2px gray;
+	cursor: pointer;
+}
+.clean-letter:hover {
+	transform: rotate(-6deg);
+	text-shadow: 2px 2px 2px gray;
+	cursor: pointer;
+}
+.clean-full:active {
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.clean-letter:active{
+	cursor: pointer;
+	font-size: 16px;
+}
+
+
+
+.box {
+	display:flex;
+	justify-content:center;
+}
+
+.cont{
+	background: gray;
+	border:2px solid black;
+	height:520px;
+	width:520px;
+	display:flex;
+	flex-wrap:wrap;
+	padding:5px;
+	justify-content:space-between;	
+	border-radius: 10px;	
+	margin: 0 10%;
+}
+
+
+.btnK {
+	margin-top: 10%;
+}
+.btnE {
+	margin-top: 10%;
+}
+
+.btnK img{
+	max-height: 300px;
+}
+.btnE img{
+	max-height: 300px;
+}
+.btnK:active {
+	margin-top: 11%;
+	cursor: pointer;
+}
+.btnE:active {
+	margin-top: 11%;
+	cursor: pointer;
+}
+.btnK:hover {
+	cursor: pointer;
+}
+.btnE:hover {
+	cursor: pointer;
+}
+
+
+.field{
+	border:1px solid black;
+	height:100px;
+	width:100px;
+	background:rgb(211, 211, 211);
+	text-align:center;
+	font-size:100px;
+	border-radius: 10%;
+}
+
+.field:hover{
+	background: gray;
+	cursor: pointer;
+}
