@@ -6,7 +6,7 @@ let field = document.querySelectorAll('.field'),
 btnK.addEventListener('click', function() {
 	field.forEach(function(item, i){
 		item.addEventListener('click', function(){
-			item.style.backgroundImage = "url('img/К.png')";
+			item.style.backgroundImage = "url('К.png')";
 			item.style.backgroundSize = "50px"
 			item.style.backgroundRepeat = "no-repeat"
 			item.style.backgroundPosition = "center"
@@ -17,7 +17,7 @@ btnK.addEventListener('click', function() {
 btnE.addEventListener('click', function() {
 	field.forEach(function(item, i){
 		item.addEventListener('click', function(){
-			item.style.backgroundImage = "url('img/Е.png')";
+			item.style.backgroundImage = "url('Е.png')";
 			item.style.backgroundSize = "50px"
 			item.style.backgroundRepeat = "no-repeat"
 			item.style.backgroundPosition = "center"
